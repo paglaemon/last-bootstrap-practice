@@ -1,0 +1,63 @@
+.container{
+    margin-bottom: 100px;
+}
+.buy-now-button{
+    background-color: black;
+    color: white;
+   border-radius: 7px;
+    padding: 2% 5%;
+    transition: transform 0.3s;
+}
+.buy-now-button:hover{
+    transform: scale(1.2);
+    background-color: rgb(238, 6, 134);
+    color: white;
+    font-weight: bold;
+    transition: 0.4s;
+}
+.top-banner{
+    background-image: url("hot-gadgets/bg-1.png");
+    background-repeat: no-repeat;
+    background-size: 5%;
+    background-position: center;
+    
+}
+.top-sec{
+    background-image: url("hot-gadgets/bg-2.png");
+    background-repeat: no-repeat;
+    background-size: 10%;
+    background-position-x: -4%;
+    background-position-y: 100%;
+}
+.card{
+    padding: 45px 25px 10px 25px;
+    border: none;
+    border-radius: 2%;
+    box-shadow: 10px 10px 15px lightgrey;
+    transition: transform 0.4s;
+}
+.card:hover{
+    transform: scale(1.1);
+    
+}
+.card-footer, .card-body{
+    background-color: white;
+    border-top: none;
+    text-align: center;
+}
+.crd{
+   
+    width: 250px;
+    height: 230px;
+    margin-bottom: 20px;
+    border-radius: 2%;
+    box-shadow: 5px 5px 10px lightgray;
+    
+}
+.firstcrd{
+    width: 250px;
+    height: 230px;
+    margin-bottom: 30px;
+    border-radius: 2%;
+    box-shadow: 5px 5px 10px lightgray;
+}
